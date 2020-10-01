@@ -1,0 +1,55 @@
+body {
+    background-color: 	#0080ff;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-family: sans-serif;
+    color: #0040ff;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: yellow 2px 3px 4px;
+}
+
+#logo {
+    display: inline;
+}
+
+#menu ul {
+    background-color: darkgray;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu ul li {
+    color: yellow;
+    display: inline-table;
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+#menu ul li:hover {
+    background: aqua;
+}
+
+#content {
+    font-family: sans-serif;
+    background-color: darkgray;
+    font-size: 20px;
+    color: #00ff80;
+}
+
+#mytable {
+    font-family: sans-serif;
+    color: black;
+}

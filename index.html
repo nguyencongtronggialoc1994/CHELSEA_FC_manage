@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHELSEA FC</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+<div id="container">
+    <div id="title">
+        <div id="logo"><img width="150px"
+                  src="https://upload.wikimedia.org/wikipedia/vi/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png">
+        </div>
+        <div><p>CHELSEA FOOTBALL CLUB</p></div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="http://www.chelseafc.com.vn/tin-moi-nhat.html">Tin tức</a></li>
+            <li><a href="https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Chelsea_F.C.">Giới thiệu</a></li>
+            <li>
+                <a href="https://www.google.com.vn/search?ei=FGh1X7f5IZS88QPq5bLIBw&q=l%E1%BB%8Bch+thi+%C4%91%E1%BA%A5u+chelsea+2020&oq=lich+thi+dau+chel+sea&gs_lcp=CgZwc3ktYWIQAxgBMgQIABANMgQIABANMgQIABANMgYIABANEB4yBggAEA0QHjIICAAQDRAFEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeOgQIABBDOgUIABCxAzoCCAA6CgguELEDEIMBEEM6CAgAELEDEIMBOgUILhCxAzoKCAAQsQMQgwEQQzoECAAQCjoHCAAQsQMQQzoGCAAQFhAeUOwKWLZLYMVeaAVwAXgAgAF-iAGCEpIBBDE2LjiYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab#sie=t;/m/023fb;2;/m/02_tc;mt;fp;1;;">Lịch
+                    thi đấu</a></li>
+            <li><a href="https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_c%E1%BA%A7u_th%E1%BB%A7_Chelsea_F.C.">Danh sách
+                cầu thủ</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <form>
+            <fieldset>
+                <legend style="color:black;">ADDplayer</legend>
+                <input type="text" placeholder="name" id="player-name">
+                <input type="text" placeholder="age" id="player-age">
+                <input type="text" placeholder="weight" id="player-weight">
+                <input type="text" placeholder="height" id="player-height">
+                <input type="text" placeholder="nationality" id="player-nationality">
+                <input type="text" placeholder="img" id="player-img">
+                <button type="button" onclick="addPlayer()">ADD</button>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend style="color: black">UPDATEPlayer</legend>
+                <input type="text" placeholder="name" id="edit-name">
+                <input type="text" placeholder="age" id="edit-age">
+                <input type="text" placeholder="weight" id="edit-weight">
+                <input type="text" placeholder="height" id="edit-height">
+                <input type="text" placeholder="nationality" id="edit-nationality">
+                <input type="text" placeholder="img" id="edit-img">
+                <button type="button" onclick="upDate()">Update</button>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <table width="1000px" border="2" cellpadding="5px" cellspacing="0" id="mytable">
+            <tr>
+                <th width="100px">STT</th>
+                <th width="100px">NAME</th>
+                <th width="100px">AGE</th>
+                <th width="100px">WEIGHT(kg)</th>
+                <th width="100px">HEIGHT(cm)</th>
+                <th width="100px">NATIONALITY</th>
+                <th width="100px">IMG</th>
+            </tr>
+            <tbody id="main"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="js/Player.js"></script>
+<script src="js/PlayerManager.js"></script>
+</html>
